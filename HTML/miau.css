@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: #220058;
+    color: white;
+    width: 100%;
+}
+
+.bio {
+    margin: 2em 0;
+    text-align: center;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.skills {
+    width: 80%;
+    max-width: 600px;
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+.skills h2 {
+    text-align: center;
+    color: #0077b6;
+}
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.skills li {
+    font-weight: bold;
+}
+
+.experience {
+    width: 80%;
+    max-width: 600px;
+    margin: 15px 0;
+}
+.experience h2 {
+    color: #0077b6;
+    text-align: center;
+}
+.job {
+    margin-bottom: 10px;
+}
+.job h3 {
+    color: #333;
+}
+.job p {
+    font-size: 15px;
+    color: #555;
+}
+
+.portfolio {
+    width: 80%;
+    max-width: 600px;
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 8px;
+}
+.portfolio h2 {
+    text-align: center;
+    color: #0077b6;
+}
+.portfolio ul {
+    list-style: none;
+    text-align: center;
+}
+.portfolio li {
+    margin: 10px 0;
+}
+.portfolio a {
+    color: #0077b6;
+    text-decoration: none;
+}
+.portfolio a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #020599;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
